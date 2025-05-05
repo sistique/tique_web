@@ -19,3 +19,8 @@
 /fuel/app/logs/*/*/*
 /fuel/app/cache/*/*
 /fuel/app/config/crypt.php
+
+config/database.php
+config/generales.php
+config/views.php
+vendor/

@@ -1,1 +1,1 @@
-# tique_web
+# web_tique
