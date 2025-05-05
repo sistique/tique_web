@@ -11,9 +11,9 @@ require '../vendor/autoload.php';
 $conf_database = new stdClass();
 
 $paths_conf = new stdClass();
-$paths_conf->generales = '/var/www/html/web_tique/config/generales.php';
-$paths_conf->database = '/var/www/html/web_tique/config/database.php';
-$paths_conf->views = '/var/www/html/web_tique/config/views.php';
+$paths_conf->generales = '/var/www/html/tique_web/config/generales.php';
+$paths_conf->database = '/var/www/html/tique_web/config/database.php';
+$paths_conf->views = '/var/www/html/tique_web/config/views.php';
 
 $cnx = new conexion(paths_conf: $paths_conf);
 $generales = new generales();

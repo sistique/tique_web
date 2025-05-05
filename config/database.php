@@ -2,7 +2,7 @@
 namespace config;
 
 class database{
-    public string $db_name = 'inmobiliaria'; //Name database
+    public string $db_name = 'tique_web'; //Name database
     public string $db_user = 'root'; // User database
     public string $db_password = 'Karate001.'; // Pass database
     public string $db_host = 'localhost'; // Host Database

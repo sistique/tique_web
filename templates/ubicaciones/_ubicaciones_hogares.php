@@ -9,9 +9,9 @@ use models\wt_hogar;
 $conf_database = new stdClass();
 
 $paths_conf = new stdClass();
-$paths_conf->generales = '/var/www/html/web_tique/config/generales.php';
-$paths_conf->database = '/var/www/html/web_tique/config/database.php';
-$paths_conf->views = '/var/www/html/web_tique/config/views.php';
+$paths_conf->generales = '/var/www/html/tique_web/config/generales.php';
+$paths_conf->database = '/var/www/html/tique_web/config/database.php';
+$paths_conf->views = '/var/www/html/tique_web/config/views.php';
 
 $number = 0;
 

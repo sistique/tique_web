@@ -6,7 +6,7 @@ function get_landing_url(){
 
 function limpia_url_landing(){
     var url_landing_limpia = window.location.pathname;
-    return url_landing_limpia.replace('/web_tique/hogares/', '');
+    return url_landing_limpia.replace('/tique_web/hogares/', '');
 }
 
 function quitar_php (url_landing_limpia){
